@@ -1,0 +1,75 @@
+/* 
+  Estilos Personalizados
+
+  Aquí vamos a estilar todas las secciones, sus contenidos y el responsivo.
+*/
+
+/* Header */
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100%;
+
+}
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space-normal);
+}
+
+.navbar-menu {
+  display: flex;
+  gap: var(--space-medium);
+}
+
+.navbar-menu a {
+  font-family: var(--font-primary);
+  text-transform: uppercase;
+}
+
+.navbar-menu a:hover {
+  color: var(--azulfuerte-color);
+
+}
+
+/* Hero */
+.hero {
+  height: 100vh;
+  min-height: 700px;
+  background-image: url("../assets/imagenes/fondo-hello-kitty\ \(1\).png");
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.hero-content {
+  width: 50%;
+
+}
+
+.hero-content p {
+  font-size: 1.125rem;
+  margin-bottom: var(--space-medium);
+  max-width: 80%;
+}
+
+.hero-actions {
+  display: flex;
+  gap: var(--space-small);
+  margin-bottom: var(--space-medium);
+}
+
+.hero.icons {
+  display: flex;
+  gap: var(--space-small);
+
+}
