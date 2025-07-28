@@ -73,3 +73,51 @@
   gap: var(--space-small);
 
 }
+
+/* Characters */
+
+.characters {
+  background-color: plum;
+}
+
+.characters-header {
+  margin-bottom: 1rem;
+  background-color: pink;
+}
+
+.characters-content {
+  display: flex;
+  background-color: lightcoral;
+}
+
+.characters-thumbnails {
+  width: 50%;
+  background-color: lightcyan;
+}
+
+.thumbnail-item {
+  border-radius: 1rem;
+  overflow: hidden;
+  cursor: pointer;
+  filter: brightness(0.6);
+  transition: 0.3s ease;
+}
+
+.thumbnail-item:hover {
+  bri
+}
+
+.characters-showcase {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-medium);
+}
+
+.thumbnails-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-medium);
+}
+.characters-
