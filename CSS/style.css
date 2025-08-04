@@ -21,6 +21,8 @@
   justify-content: space-between;
   align-items: center;
   padding: var(--space-normal);
+  background-color: var(--dark-color-transparent);
+  backdrop-filter: blur(4px);
 }
 
 .navbar-menu {
@@ -166,6 +168,10 @@
 }
 
 .carousel-controls button {
+  color: var(--azulfuerte-color);
+}
+
+.carousel-controls button:hover {
   color: var(--azulfuerte-color);
 }
 
