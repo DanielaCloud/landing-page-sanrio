@@ -84,17 +84,15 @@
 
 .characters-header {
   margin-bottom: 1rem;
-  background-color: pink;
 }
 
 .characters-content {
   display: flex;
-  background-color: lightcoral;
+  align-items: center;
 }
 
 .characters-thumbnails {
   width: 50%;
-  background-color: lightcyan;
 }
 
 .thumbnail-item {
@@ -177,4 +175,13 @@
 
 .carousel-controls span {
   font-size: 3rem;
+}
+
+/* About */
+
+.about {
+  background-image: url("../assets/imagenes/about-background.png");
+  background: linear-gradient(90deg,rgba(131, 58, 180, 0.47) 0%, rgba(253, 29, 29, 0.47) 50%, rgba(252, 176, 69, 0.47) 100%);
+  background-size: cover;
+  background-position: center;
 }

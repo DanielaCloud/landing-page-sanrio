@@ -25,6 +25,17 @@
   --space-small: 16px;
   --space-normal: 24px;
   --space-medium: 32px;
+  --space-large: 48px;
+  --space-xl: 56px;
+  --space-2xl: 64px;
+
+  /* height for Scroll Offset */
+  --offset-height: 124px
+
+}
+
+html {
+  scroll-behavior: ;
 }
 
 body {
@@ -58,7 +69,8 @@ button {
 }
 
 section {
-  margin-bottom: var(--rosa-color);
+  scroll-margin-top: var(--offset-height);
+  margin-bottom: var(--space-2xl);
 }
 
 /* Buttons */
