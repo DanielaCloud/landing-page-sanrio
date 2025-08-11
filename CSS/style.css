@@ -185,3 +185,36 @@
   background-size: cover;
   background-position: center;
 }
+
+.about > div {
+  display: flex
+  padding: var(--space-large)
+}
+
+.about-image,
+.aout-content {
+  width:50%;
+}
+
+.about-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-image img {
+  width: 240px;
+  max-width: 300px;
+  min-width: 200;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-content h2
+.about-content p {
+  color: var(--azulfuerte-color)
+}
